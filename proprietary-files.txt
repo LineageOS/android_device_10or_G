@@ -1004,8 +1004,7 @@ vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
 -vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
 vendor/bin/time_daemon|75b8a6a14cfb4424499ccb2bf1cad011df295d0e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
--vendor/lib/libtime_genoff.so|a574d287e7e73649685b702f4fe497eb7c6ba727
--vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
+vendor/lib64/libtime_genoff.so|06df52867790cdbbcc674a3a28d7ad7c8cc161ac
 
 # TUI - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
