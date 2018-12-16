@@ -1013,9 +1013,5 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|313677dd28de6f6b2a5cf8b136d8ce0723bb5a65
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
 
-# Voice - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
-vendor/lib/vendor.qti.voiceprint@1.0.so|b70091c7b738394468b7d732df283d23a3975f46
-vendor/lib64/vendor.qti.voiceprint@1.0.so|aeca80d0859dd1084b4a6585779d79b48ae9aa76
-
 # Wi-Fi - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/wcnss_service|1a7da5ec11248ea69af665d711a846e4cc7c95be
