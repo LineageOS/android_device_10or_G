@@ -1957,6 +1957,7 @@ product/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
 product/framework/qcrilhook.jar|99c85f639bdf74b6779607f1f29628c33d4edc85
 product/framework/qti-telephony-common.jar|11d6b89b31a9bf65218b3676c2bbd296275b1932
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|20c011ffc54539161fa7cc05c55c9c5ed3f936b4
+vendor/bin/hw/qcrild|c0db5589a45874c31c0bb7e8a7151511505c1e04
 vendor/bin/ATFWD-daemon|4d301417b919c784ae19e4fa6733bfdebacbdfd3
 vendor/bin/netmgrd|8752fb8cb74bd402a13ff291b7d2074415350984
 vendor/bin/port-bridge|cba532e893cc309c535dfb4543272a7340d455ed
@@ -1974,6 +1975,7 @@ vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
 vendor/etc/init/ipacm-diag.rc|cacc1fce2e7123f6fdcaa408e66c3dfb9870f1bf
 vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
+vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib/libmdmdetect.so|716f635c809b3e90add0e8fa57569a9b630e7d65
 vendor/lib64/libconfigdb.so|517b23ac8fcff847ff99a3fdf037e7ff75a0338e
 vendor/lib64/liblqe.so|fd956abb5edf900153b358af3bdde0429a54f698
@@ -1987,8 +1989,10 @@ vendor/lib64/liboemaids_vendor.so|ccca070ef0ce13033883accb832a56dae8e80c40
 vendor/lib64/libpdmapper.so|cdc5b101e8f6a4e0cc18be02e1a4d95527ba9d9c
 vendor/lib64/libpdnotifier.so|1acdef1d90be28dc2f4b0fb14a91d42988bc0643
 vendor/lib64/libqcmaputils.so|bc02f3f2cf2036c823e465f2bfbe7690201188bd
+vendor/lib64/libqcrilFramework.so|3d8f25d13533f6fa45a36b23feb250291b663370
 vendor/lib64/libqrtr.so|f4349657cad3dc73b6264b8e56c4978f145ef088
 vendor/lib64/libqsocket.so|8a1927456c480d66583cd1551bbe3f71d2bac42d
+vendor/lib64/libril-qc-hal-qmi.so|9f58de2abe6a3d67a341692c5870929a66f0b8b2
 vendor/lib64/libril-qc-ltedirectdisc.so|0c1aafc35d913980ace095e1225ff5d7a95325dc
 vendor/lib64/libril-qc-qmi-1.so|5436da6c6ee67d3a9c3f74178da9c0a4d8bd61fe
 vendor/lib64/libril-qc-radioconfig.so|6ebbd05820a8710059e402ec314e0674eb8fdca0
@@ -1996,6 +2000,7 @@ vendor/lib64/libril-qcril-hook-oem.so|a7f9913f870e93760c6ecfd1548704e356d41e2c
 vendor/lib64/librilqmiservices.so|7c98179411c97d19b6f7ba4f5cc77a21304a26dc
 vendor/lib64/libsettings.so|baedc602a73f011db105f9d7c816cb4a5d2143cc
 vendor/lib64/libsystem_health_mon.so|08c350ccb62970952b111459e31f80c22bca6d88
+vendor/lib64/qcrild_librilutils.so|c23470619690a34f7442fb6b26345de5dc4de880
 vendor/lib64/qtibus.so|ee4c36f06be6a4175fef97610bf1c1580a1c893f
 vendor/lib64/qtimutex.so|e0963a87e9fe282bfd57eed8ad179b9e944643bd
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|52b799cf6dc71786c44ac92dc3fbe5fc770ce325
