@@ -487,7 +487,6 @@ vendor/lib64/hw/gatekeeper.msm8953.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|7f7006829005658c9b89c61ac02f107d3d6fe470
 vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
 vendor/bin/lowi-server|1fe78b543c14196169ab411acfd9dabbfb4636dd
-vendor/bin/slim_daemon|afca96474570012eabb7ef9cecb175948d69e1df
 vendor/bin/xtra-daemon|20ec9dc7d1785a1789e57cf55f8b49b79fde374c
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
@@ -511,7 +510,6 @@ vendor/lib64/liblocationservice_glue.so|dab65642bfba2756c5ad0a38e0107c3ab04637f9
 vendor/lib64/liblowi_client.so|7ca8773ca8f686459dee81d532e887d3beda53e0
 vendor/lib64/liblowi_wifihal.so|1a5b086558927837302965e68731000f5ddc37db
 vendor/lib64/libqdma_file_agent.so|8bb728b595a3bac39cdbd3c456d523f35a10ef1d
-vendor/lib64/libslimclient.so|d2c67e48e0f9d975a817771f5589f9e23e1ac495
 vendor/lib64/libxtadapter.so|5085a7d7986abc5f64b67ad42065d326662d0c2c
 vendor/lib64/vendor.qti.gnss@1.0.so|bf11e2b7a104ed1689623f5a772269d24e00bd14
 vendor/lib64/vendor.qti.gnss@1.1.so|4b88888fcba1bc3f709889cbf086d9ba2b997b91
