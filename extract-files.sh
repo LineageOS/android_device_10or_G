@@ -61,6 +61,17 @@ function blob_fixup() {
         vendor/lib/libmpbase.so)
             "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
             ;;
+        vendor/lib64/hw/gf_fingerprint.goodix.default.so \
+        |vendor/lib64/libgoodixfingerprintd_binder.so \
+        |vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
+        |vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
+            "${PATCHELF}" --remove-needed "libbacktrace.so" "${2}"
+            "${PATCHELF}" --remove-needed "libkeystore_binder.so" "${2}"
+            "${PATCHELF}" --remove-needed "libkeymaster_messages.so" "${2}"
+            "${PATCHELF}" --remove-needed "libsoftkeymaster.so" "${2}"
+            "${PATCHELF}" --remove-needed "libsoftkeymasterdevice.so" "${2}"
+            "${PATCHELF}" --remove-needed "libunwind.so" "${2}"
+            ;;
         vendor/lib64/libril-qc-hal-qmi.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
             ;;
