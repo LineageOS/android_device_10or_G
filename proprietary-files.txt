@@ -494,8 +494,6 @@ vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
 vendor/bin/lowi-server|1fe78b543c14196169ab411acfd9dabbfb4636dd
 vendor/bin/slim_daemon|afca96474570012eabb7ef9cecb175948d69e1df
 vendor/bin/xtra-daemon|20ec9dc7d1785a1789e57cf55f8b49b79fde374c
-vendor/bin/xtwifi-client|7d737eca493d57e29cb44e0bc658dda93fc44fe4
-vendor/bin/xtwifi-inet-agent|58749dc8fc9fdce0c184f3689d50299734b0f988
 vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
 -vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
 -vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
@@ -503,7 +501,6 @@ vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|02717939c65794f29ab10bb817
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|2328835a0e0221a527c8e55c72e1a0dcef3fcfbe
 vendor/lib64/libbatching.so|d46350976bb1d3dfd1e9d354c176290eb1284a42
 vendor/lib64/libdataitems.so|0ff60a5f4273cc3eb9f1f8a4d7bd204107375cec
-vendor/lib64/libgdtap.so|f5151c6425312d37c1eeb78cce1f92b71ae79e10
 vendor/lib64/libgeofencing.so|57f23c8de2503824e9b05e9c49fae2aecf3f7e9d
 vendor/lib64/libgnss.so|94dfb20cfd0f992ed48e91939bb52f226d67cf99
 vendor/lib64/libgnsspps.so|e7335d3aba2ce9762d578f33401dbccdec938239
