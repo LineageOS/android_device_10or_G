@@ -71,15 +71,14 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.msm8953:32
 
 PRODUCT_PACKAGES += \
-    libaudiopreprocessing \
-    libaudioroute \
     libaacwrapper \
     libaudio-resampler \
+    libhfp:32 \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener \
-    libtinycompress
+    libsndmonitor:32 \
+    libspkrprot:32
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
