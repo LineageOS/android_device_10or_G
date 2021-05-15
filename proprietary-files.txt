@@ -1975,7 +1975,7 @@ vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
 vendor/etc/init/ipacm-diag.rc|cacc1fce2e7123f6fdcaa408e66c3dfb9870f1bf
 vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
-vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
+vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
 vendor/lib/libmdmdetect.so|716f635c809b3e90add0e8fa57569a9b630e7d65
 vendor/lib64/libconfigdb.so|517b23ac8fcff847ff99a3fdf037e7ff75a0338e
 vendor/lib64/liblqe.so|fd956abb5edf900153b358af3bdde0429a54f698
