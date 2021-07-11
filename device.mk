@@ -116,6 +116,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service
 
 PRODUCT_PACKAGES += \
+    camera.msm8953 \
+    libmm-qcamera \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \

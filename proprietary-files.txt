@@ -94,8 +94,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|7cdd376b08b8571e51674e0e61
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
 
 # Camera - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
-vendor/lib/hw/camera.msm8937.so:vendor/lib/hw/camera.msm8953.so|637baed52599f244d6ff140e725e3bc2fc77c7b3
-vendor/lib/libmm-qcamera.so|146a965b1b7a250d0e3a7a228f792606782295ff
 -vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
 -vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
 
@@ -115,12 +113,9 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-vendor/lib/libmpbase.so
 vendor/lib/liboptizoom.so
-vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -134,11 +129,6 @@ vendor/lib/libvideoutils.so
 vendor/lib/libactuator_dw9800w.so
 vendor/lib/libactuator_dw9800w_cbahc13.so
 vendor/lib/libactuator_dw9800w_cbahc14.so
-
-# Camera (Arcsoft) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
-vendor/lib/libarcsoft_beautyshot.so|770a78a5d1bb7d11b35a6cbacd0772f5d3dfd178
-vendor/lib/libarcsoft_high_dynamic_range.so|118f3a79529925843e08570dda1f8b6c51598464
-vendor/lib/libarcsoft_low_light_shot.so|b6a17dcf3203b566b4dc2055952099af4facaee5
 
 # Camera (Bin) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
 vendor/bin/mm-qcamera-daemon|41a2e40294176eefd4ae388865f4e9666973f172
@@ -306,20 +296,6 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 # Camera (OIS)
 vendor/lib/libois_lc898122.so
 
-# Camera (Provider) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|ac62607d4b4547043976c53f1152b3e3e587b340
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc|9890a25df0e24af1530d2911d7ccf3a18a6f0ee2
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|7d55cf41f9bd03799eb87e27645259fc9af35bbc
-vendor/lib/android.hardware.camera.provider@2.4-external.so|14fb46326f94af475aaac4fb1372fcfa845d5109
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|cfa10772becd7069dc8819bdca6e277f6e57be68
-vendor/lib/camera.device@1.0-impl.so|dc87101d20c85f31c112b2c77c386d98a46088cc
-vendor/lib/camera.device@3.2-impl.so|462ca435dc2588a44b89d73d279d150f01287934
-vendor/lib/camera.device@3.3-impl.so|a7b39b03cd232315cef7087d9ecb6bdd7633dca6
-vendor/lib/camera.device@3.4-external-impl.so|66b78f29e9fce55d2ea8a069ef9e3f3b120cc1fc
-vendor/lib/camera.device@3.4-impl.so|5c98a6fab4860536d6a6d04e9b479dbea6a65eba
-vendor/lib/camera.device@3.5-external-impl.so|c8835567d63fde1a2441c3abc6519896bc6cacf2
-vendor/lib/camera.device@3.5-impl.so|bfe0b24c9bc6966c3e4c2fb5f88f456d847029eb
-
 # Camera (Sensors) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
 vendor/lib/libmmcamera2_c2d_module.so|adf33c44e2d679c6fdf3b344d7d764790a6e488d
 vendor/lib/libmmcamera2_cpp_module.so|c54d2ad4c6eb4fa109dc4d3efd42b6b1814abbcd
@@ -350,7 +326,6 @@ vendor/lib/libmmcamera_faceproc.so|2b580dc5464b390586246ad3cc23efdf903a2833
 vendor/lib/libmmcamera_faceproc2.so|27f802a68cc8aab70ba0637fd60e5d5c52f606a0
 vendor/lib/libmmcamera_hdr_gb_lib.so|6a38342062c1b4c8730c3bdb4c57d201987150cb
 vendor/lib/libmmcamera_imglib.so|e45a3918afbdb81e2ef1eef7b0f139d419d86fb7
-vendor/lib/libmmcamera_interface.so|621e574f5866bd2d9b80e2aa06e9c7cfc4d5d458
 vendor/lib/libmmcamera_isp_abf40.so|035f73911fc7fd5519d7694a21cc1b75d2a427c1
 vendor/lib/libmmcamera_isp_bcc40.so|0f93013a0340fe142dcc8de99cadab866913b421
 vendor/lib/libmmcamera_isp_be_stats44.so|682ea36a138681da39e0c035a7a808ca84c69f0a
