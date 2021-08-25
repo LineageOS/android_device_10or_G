@@ -46,7 +46,6 @@ private:
     bool WriteToFile(const std::string& path, uint32_t content);
 
     std::string mBacklightNode;
-    bool mButtonExists;
     bool mWhiteLed;
     bool mBreath;
     HwLightState mNotification;
