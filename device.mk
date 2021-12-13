@@ -266,6 +266,10 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.2.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
