@@ -638,6 +638,18 @@ vendor/lib/mediadrm/libwvdrmengine.so|b15ea9bf4680fe9f068412e3aff7f10ed99c8e0e
 vendor/lib64/mediadrm/libwvdrmengine.so|14019e8ed3c4c92a1a1d441fd676a8ee5feb850e
 vendor/lib64/libwvhidl.so|61b056c74731122836e57f1110f2174fd05cbfdb
 
+# Fingerprint
+framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+lib64/hw/fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so
+lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
+lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
+lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
 # Gatekeeper - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/lib/hw/gatekeeper.msm8953.so|cd04140788659ae07a50081baeb3eb2e42f37028
 vendor/lib64/hw/gatekeeper.msm8953.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
