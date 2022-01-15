@@ -125,12 +125,9 @@ vendor/lib/hw/camera.msm8937.so:vendor/lib/hw/camera.msm8953.so|637baed52599f244
 vendor/lib/libmm-qcamera.so|146a965b1b7a250d0e3a7a228f792606782295ff
 -vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
 -vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
--vendor/lib64/libts_detected_face_hal.so|4e1b163ac5b7b7a2787b480f5cf956c8cfc06889
--vendor/lib64/libts_face_beautify_hal.so|9b237350e3aac51f2abb3d2f5f012044c7b28617
 
 # Camera
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
-lib64/libtrueportrait.so:vendor/lib64/libtrueportrait.so
 vendor/bin/remosaic_daemon
 vendor/lib/libAltek_AF.so
 vendor/lib/libHAFIAFalSDE1.so
@@ -159,12 +156,6 @@ vendor/lib/libremosaiclib.so
 vendor/lib/libseemore.so
 vendor/lib/libubifocus.so
 vendor/lib/libvideoutils.so
-vendor/lib64/liboptizoom.so
-vendor/lib64/libremosaic_daemon.so
-vendor/lib64/libremosaiclib.so
-vendor/lib64/libseemore.so
-vendor/lib64/libubifocus.so
-vendor/lib64/libvideoutils.so
 
 # Camera (Actuators)
 vendor/lib/libactuator_dw9800w.so
@@ -356,16 +347,6 @@ vendor/lib/camera.device@3.4-external-impl.so|66b78f29e9fce55d2ea8a069ef9e3f3b12
 vendor/lib/camera.device@3.4-impl.so|5c98a6fab4860536d6a6d04e9b479dbea6a65eba
 vendor/lib/camera.device@3.5-external-impl.so|c8835567d63fde1a2441c3abc6519896bc6cacf2
 vendor/lib/camera.device@3.5-impl.so|bfe0b24c9bc6966c3e4c2fb5f88f456d847029eb
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|9d43c7c8d889d11f950684a7d58c1ef98d6b33af
-vendor/lib64/android.hardware.camera.provider@2.4-external.so|c923860edfab23bf8868c50dc4fbde673502b078
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|4e735cc781bd1f84558b806c3699ac429a925069
-vendor/lib64/camera.device@1.0-impl.so|34d7db4772f7e62e2d5c1bf55227fe44abfe92b1
-vendor/lib64/camera.device@3.2-impl.so|195b64342cc2b659f354a51e1dce51e21b782631
-vendor/lib64/camera.device@3.3-impl.so|46ca7bc72df1fa1d0972ed14078cc7081ee239de
-vendor/lib64/camera.device@3.4-external-impl.so|1665c70f1d9c397ecf2eb5413348185cfc72ecc7
-vendor/lib64/camera.device@3.4-impl.so|e861f67681aaf060dbe6b8b0332a8db4d7eb36fd
-vendor/lib64/camera.device@3.5-external-impl.so|9e3d4db2bb8a5fba95a8946a3f608fa8d6fb226a
-vendor/lib64/camera.device@3.5-impl.so|7185bac9a23804c3fa69e6ba8cca0289b09530dc
 
 # Camera (Sensors) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
 vendor/lib/libmmcamera2_c2d_module.so|adf33c44e2d679c6fdf3b344d7d764790a6e488d
@@ -448,14 +429,6 @@ vendor/lib/libmmcamera_trueportrait_lib.so|b50f2f57a343997ac37debeb87f18f76ea068
 vendor/lib/libmmcamera_tuning.so|d7289120ef4ca5d12009b8c00b26ccaecb55efdf
 vendor/lib/libmmcamera_tuning_lookup.so|27f9b3539c2053c71d85a7bcf33430604cb431d8
 vendor/lib/libmmcamera_ubifocus_lib.so|b2ff317bde257ea457bfa41ed2d0d371f3ae964b
-vendor/lib64/libmmcamera2_frame_algorithm.so|baeffd4190c0824ba8ccacb93f0714c93895c100
-vendor/lib64/libmmcamera2_is.so|4de542c0e7bd3abf1d43c4303d391254fe7ac019
-vendor/lib64/libmmcamera2_q3a_core.so|b202c90a2204b79a003f82645dab4424ad6faf23
-vendor/lib64/libmmcamera2_stats_algorithm.so|a86b6224a992635beea34938b73f1f5d62c62b42
-vendor/lib64/libmmcamera_cac3_lib.so|49f9aa225ec5399035c87c8f0d1284c7f15535f5
-vendor/lib64/libmmcamera_dbg.so|513a30aa6d11cb33a0032cf8086ea4b4184c403e
-vendor/lib64/libmmcamera_tintless_algo.so|949c740e827468f65f8be95ce072fda0e776a72c
-vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|62de489d9eedaef87509ee8cd57c7d04db55995e
 
 # Camera (Sensors)
 vendor/lib/libmmcamera_ov13358_cbahc13_mono.so
