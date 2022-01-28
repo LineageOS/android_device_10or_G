@@ -141,7 +141,6 @@ vendor/lib/libarcsoft_high_dynamic_range.so|118f3a79529925843e08570dda1f8b6c5159
 vendor/lib/libarcsoft_low_light_shot.so|b6a17dcf3203b566b4dc2055952099af4facaee5
 
 # Camera (Bin) - from E-user 8.1.0 OPM1.171019.019 10or_E_V1_0_109 release-keys
-vendor/bin/mm-qcamera-app|35e23201ee78b778ed7cd5a7c2f1a3669096ed40
 vendor/bin/mm-qcamera-daemon|41a2e40294176eefd4ae388865f4e9666973f172
 
 # Camera (Chromatix)
