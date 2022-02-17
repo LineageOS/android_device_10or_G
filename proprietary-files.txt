@@ -405,7 +405,6 @@ vendor/lib64/libcacertclient.so|69ae73b9be13507ff39398ac5813ad709b8b7c32
 vendor/lib64/libcne.so|693161958cfac54f256a5ed1e2ec0392bdb31112
 vendor/lib64/libcneapiclient.so|b6479678e5b0e8b46d8df5eb8bd610aa17be00d0
 vendor/lib64/libcneoplookup.so|60d6abe85061de4fa75e5e4f69d477f37f1f8f64
-vendor/lib64/libcneqmiutils.so|c2e2658698eb8b312ca6b28c1a1088a331bb28b9
 vendor/lib64/libwms.so|604a930c89016ef4851351d8f9e03f62f9fcf692
 vendor/lib64/libwqe.so|4ae892dfb16d6d0d337e7811696ac11a86e4838d
 vendor/lib64/libxml.so|f9b20632e9fd324810caf865faea93e4ff505d91
@@ -701,7 +700,6 @@ vendor/bin/ATFWD-daemon|ba94a1f2b434f1ae8f536d29b1dbe3d6eea000da
 vendor/bin/adpl|a742bd5fa87d0bf44790e55a67154742b5ee3bfe
 vendor/bin/netmgrd|1561db50ad4c5523ad93df630529790fb04af359
 vendor/bin/port-bridge|819a575730ac41a5766a68a8f80b945c9e570f14
-vendor/bin/qrtr-cfg|9019f1c99cb23913f540433285af0d26c397c121
 vendor/bin/qrtr-lookup|fb31961d7c966f09e5c77a2be17aa8af702fe90b
 vendor/bin/qrtr-ns|2b84b77bcd50e8c65c2151457f885eb434af4585
 vendor/bin/qti|f2f60bc56d505905a0e589f1ae039b81069e3776
@@ -733,9 +731,6 @@ vendor/lib64/libqrtr.so|b22ee7df87b35ba88b518f0b821cc601cd612183
 vendor/lib64/libqsocket.so|3fa01c9aff6ed96a5ea9886c7696a046c929e339
 vendor/lib64/libril-qc-hal-qmi.so|65b9c44406ca302facf87038b5b223f6977e0f79
 vendor/lib64/libril-qc-logger.so|307587cc7cca5d04aff8645e7d5932c5f46377bb
-vendor/lib64/libril-qc-ltedirectdisc.so|2877ea019548dbce7270da45942061982d5c0f6b
-vendor/lib64/libril-qc-radioconfig.so|b7bed43b6014b35f0e1d1d286f002a7e0f37e777
-vendor/lib64/libril-qcril-hook-oem.so|1536b0a3bccdc1dcc06512248c14238a3405aaeb
 vendor/lib64/librilqmiservices.so|551a21807532e724758cc136a1abed9bca571dc3
 vendor/lib64/libsettings.so|6e821147dbe067b5e74b879de6e43d5bc1916311
 vendor/lib64/libsystem_health_mon.so|2cc55d78ea00b9fe8af9cd88fd8ef8c31ee5f494
