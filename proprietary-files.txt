@@ -547,10 +547,8 @@ vendor/lib/egl/libq3dtools_esx.so|617a3d6a24bd4b1970b071248b950385f133bff3
 vendor/lib/hw/vulkan.adreno.so|f7e04bc036f108d490428e6f37691980c71dbb73
 vendor/lib/libC2D2.so|64e2a5a20312e5cb59c23b3a3a99bf8912946ed3
 vendor/lib/libOpenCL.so|86a24e408c852cab331f48a4341dc42bddc0fe17
-vendor/lib/libVkLayer_q3dtools.so|f8c43e8addd1f53f55a3eb0916b8cb933afc83da
 vendor/lib/libadreno_utils.so|fb9e3b608997e905490e861e2c573ebc92676ed6
 vendor/lib/libc2d30_bltlib.so|f3667f469dab7b3d5023785c6139819b557b3ed0
-vendor/lib/libgpudataproducer.so|8371d2b18d4634b0365d18caf0446c4dd60ed2f1
 vendor/lib/libgsl.so|53e2ea3ccf481560d018d178d60224df5a319d69
 vendor/lib/libllvm-glnext.so|5cef3ee6d93e081383a91a1808ada0218c9940d2
 vendor/lib/libmm-hdcpmgr.so|ea47b3c85cfd894945cd7a4412cdc3972ea67c78
@@ -564,10 +562,8 @@ vendor/lib64/egl/libq3dtools_esx.so|e5077c45764087625b40a760e8dac1d8877c82a5
 vendor/lib64/hw/vulkan.adreno.so|f101bd7e86bd092285c4e7cbb45f5ac2734f2db7
 vendor/lib64/libC2D2.so|6fb775e393ce7161b30e3a71fa0f320e86374425
 vendor/lib64/libOpenCL.so|eb7fbc2972a022b645e422422cc77d00b103532f
-vendor/lib64/libVkLayer_q3dtools.so|af2da97008f5967bf38878b82f3a0a206650636d
 vendor/lib64/libadreno_utils.so|2667d141b8c87e0c1b1f3571243f8b9e80e6142c
 vendor/lib64/libc2d30_bltlib.so|8c8fef67e346be907e1f9b312d11a1e9606ad6f0
-vendor/lib64/libgpudataproducer.so|0fc71a97393accdb717bd7a94479cff40735569c
 vendor/lib64/libgsl.so|13db683d011feca5b2dd29259e7ba29f98b8b2eb
 vendor/lib64/libhdr_tm.so|cfd5f03dd37b5b6fb46d288bed619b780ec7343e
 vendor/lib64/libllvm-glnext.so|cc14fa4f73fba802c3e3c098b485eaf66d842b45
