@@ -595,11 +595,9 @@ vendor/lib/libsmwrapper.so|efed6475b26cafc15fed591a9aaa68b38cf6a37b
 # Media - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
 vendor/etc/seccomp_policy/mediacodec.policy|f1097f8e67ef20de89176cf2e9c4f5c91cb77897
 vendor/etc/seccomp_policy/mediaextractor.policy|4234a844e9b1aef37397c8cfbd19566966ecd622
-vendor/lib/libFlacSwDec.so|7d661ac115de794bc6f6f7d20d4f93735b698c52
 vendor/lib/libOmxAacDec.so|0b86603691cb574700e9a5eb105bd20ed0d3531d
 vendor/lib/libOmxAlacDec.so|d1018f8b62c7ded2b6f52660d7c8c1e4f9374c74
 vendor/lib/libOmxAlacDecSw.so|59055e1c00ed82f7c310dcf78d4104b9f803d12e
-vendor/lib/libOmxAmrDec.so|41697c01dc9f7840e158a86f771fe353daeb85df
 vendor/lib/libOmxAmrwbplusDec.so|3200103c63b670b66c5ce7498281b8ff428929b9
 vendor/lib/libOmxApeDec.so|ad9ee27ade3c5aa27d406b6208c60aefc6a07c68
 vendor/lib/libOmxApeDecSw.so|076e4092433cf2422c71594c7f4a418f32408f56
