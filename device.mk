@@ -139,7 +139,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953
 
 PRODUCT_PACKAGES += \
-    libdisplayconfig \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
