@@ -23,11 +23,3 @@ cc_binary {
     init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.G.rc"],
     vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.G.xml"],
 }
-
-cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.G-32",
-    defaults: ["fingerprint_service_G_defaults"],
-    compile_multilib: "32",
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.G-32.rc"],
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.G-32.xml"],
-}
