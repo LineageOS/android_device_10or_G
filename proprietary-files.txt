@@ -499,8 +499,6 @@ vendor/lib64/libgeofencing.so|57f23c8de2503824e9b05e9c49fae2aecf3f7e9d
 vendor/lib64/libgnss.so|94dfb20cfd0f992ed48e91939bb52f226d67cf99
 vendor/lib64/libgnsspps.so|e7335d3aba2ce9762d578f33401dbccdec938239
 vendor/lib64/libgps.utils.so|3c59a467e02e34e1b2f9d9b3fedc879b62e434c6
-vendor/lib64/libizat_client_api.so|b85018c41fb06de3e2f877288b5d8d18ea00077b
-vendor/lib64/libizat_core.so|fe74fb6cd3320ff8c938eb6b35b8f206b7265a4b
 vendor/lib64/liblbs_core.so|a20c4f11667138d372f4318bd532bfd4282b9e23
 -vendor/lib64/libloc_api_v02.so|b8649d539b3ba48d3ed63dfb35e2ee827431ffa1
 vendor/lib64/libloc_core.so|0fa734d7e486315c25a9d1a93235ad58fc835132
