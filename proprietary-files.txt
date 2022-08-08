@@ -470,7 +470,6 @@ vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
 # DRM - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
-vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
 vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
 vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
 vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
@@ -569,7 +568,6 @@ vendor/lib/libadreno_utils.so|fb9e3b608997e905490e861e2c573ebc92676ed6
 vendor/lib/libc2d30_bltlib.so|f3667f469dab7b3d5023785c6139819b557b3ed0
 vendor/lib/libgpudataproducer.so|8371d2b18d4634b0365d18caf0446c4dd60ed2f1
 vendor/lib/libgsl.so|53e2ea3ccf481560d018d178d60224df5a319d69
-vendor/lib/libhdr_tm.so|3d899ac8b0e6370295ab56ad95076e3c00140f75
 vendor/lib/libllvm-glnext.so|5cef3ee6d93e081383a91a1808ada0218c9940d2
 vendor/lib/libmm-hdcpmgr.so|ea47b3c85cfd894945cd7a4412cdc3972ea67c78
 vendor/lib/libpvr.so|5e7b1788636d49b2ea3d02a1138c72cbc3b4c7ca
@@ -603,10 +601,6 @@ vendor/bin/hw/vendor.display.color@1.0-service|fe8aebf4caa5d3d5ae8f6a8ceef0f5718
 vendor/bin/mm-pp-dpps|798084a9ea98a808e768c430bbe199c2ad257ca1
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib/libdisp-aba.so|898f31370aca398fc7f3926bdfc8ef225d2e2ca1
-vendor/lib/vendor.display.color@1.0.so|84be23350f1ff5499bb9227f00e38bcc637b42ac
-vendor/lib/vendor.display.color@1.1.so|a5ad2980bc1427e9e5268953bb43ef21d123ff85
-vendor/lib/vendor.display.color@1.2.so|570ab2a432ad084bed892da327973de83709fb65
-vendor/lib/vendor.display.postproc@1.0.so|4affa995898668ff9316e50939fe2922cadf79cd
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|24832c2eb82d500a98ecc24787270106202b7964
 vendor/lib64/libdisp-aba.so|eb67e6d037c935e30e48f6d92fbbf2188b3f8239
 vendor/lib64/vendor.display.color@1.0.so|253cd210899ea79133c7b7b9d31429e4a8d43c32
@@ -617,11 +611,6 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|7db1d6865fb1589e9e7f97c3e1c
 
 # Graphics (SDM) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
 vendor/lib/libscalar.so|835649ab934f93d545059fd08040c6acbf7f3d1b
-vendor/lib/libsdm-color.so|76531589416b881b636c8f55b0c1dd342113fc5b
-vendor/lib/libsdm-diag.so|51172407a6bdaad3493fe5b9c80e8df07d12732c
--vendor/lib/libsdm-disp-vndapis.so|150d1ac4dec52deefa177789c9f28959cc845b2b
-vendor/lib/libsdmextension.so|70d3dde16611389769f8d8f8527ea69a01b6942f
-vendor/lib/libtinyxml2_1.so|78a92dd74248531bccd5c5d31fe0fa2984cad85c
 vendor/lib64/libscalar.so|c47e029b8eabb8cedb1cea92f49d2c876106b326
 vendor/lib64/libsdm-color.so|234d63668a773e81542c37c35be52fe1752b687d
 vendor/lib64/libsdm-diag.so|2e6e0f50786a8ab106ddd74ade69c58973bd3e73
@@ -693,7 +682,6 @@ vendor/lib64/libqti-util.so|e790b62bb198442145fcba20c2dc61d182c45a47
 # Peripheral manager - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/pm-proxy|1f216a6f54e9b97c026f3f3bc4d7d441d58d90a7
 vendor/bin/pm-service|8a521f14576d0d2edf03b4500a54379d37e15d4e
-vendor/lib/libperipheral_client.so|b75a6adac094ddcd6ded9415cae83e18d1e7e5d0
 vendor/lib64/libperipheral_client.so|20c8ab21fe28e41f60b59af0ba72de9f6b1996d2
 
 # QMI (diag) - from LA.UM.9.6.3.r1-04400-89xx.0
@@ -909,7 +897,6 @@ vendor/lib64/sensors.ssc.so|9affbc5130223a63c7c8ee33a1b7408d739e1466
 
 # Thermal - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/thermal-engine|4ab3c410fbcf9f8cae711ea4ba16cd2797712de6
--vendor/lib/libthermalclient.so|6077e27e15d9e3e43fa57d6d5405c49284f48949
 -vendor/lib64/libthermalclient.so|12b26d4242b1a8913ddcb511f42a1debb83689af
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
