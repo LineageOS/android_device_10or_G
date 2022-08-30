@@ -44,14 +44,14 @@ namespace implementation {
 
 	std::vector<std::string> cpu_sensors_8953 =
 	{
-		"tsens_tz_sensor9",
-		"tsens_tz_sensor10",
-		"tsens_tz_sensor11",
-		"tsens_tz_sensor12",
-		"tsens_tz_sensor4",
-		"tsens_tz_sensor5",
-		"tsens_tz_sensor6",
-		"tsens_tz_sensor7",
+		"apc1-cpu0-usr",
+		"apc1-cpu1-usr",
+		"apc1-cpu2-usr",
+		"apc1-cpu3-usr",
+		"apc0-cpu0-usr",
+		"apc0-cpu1-usr",
+		"apc0-cpu2-usr",
+		"apc0-cpu3-usr",
 	};
 
 	std::vector<struct target_therm_cfg> sensor_cfg_8953 =
@@ -67,7 +67,7 @@ namespace implementation {
 		},
 		{
 			TemperatureType::GPU,
-			{ "tsens_tz_sensor15" },
+			{ "gpu0-usr", "gpu1-usr" },
 			"GPU",
 			95000,
 			115000,
@@ -76,7 +76,7 @@ namespace implementation {
 		},
 		{
 			TemperatureType::SKIN,
-			{ "xo_therm" },
+			{ "xo-therm-adc" },
 			"skin",
 			40000,
 			95000,
