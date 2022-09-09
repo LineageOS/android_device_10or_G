@@ -1,2 +1,5 @@
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
+
+# Zygote
+zygote.critical_window.minute=10
