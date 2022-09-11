@@ -155,6 +155,49 @@ namespace implementation {
 		},
 	};
 
+	std::vector<std::string> cpu_sensors_632 =
+	{
+		"cpuss0-usr",
+		"cpuss0-usr",
+		"cpuss0-usr",
+		"cpuss0-usr",
+		"apc1-cpu0-usr",
+		"apc1-cpu1-usr",
+		"apc1-cpu2-usr",
+		"apc1-cpu3-usr",
+	};
+
+	std::vector<struct target_therm_cfg> sensor_cfg_632 =
+	{
+		{
+			TemperatureType::CPU,
+			cpu_sensors_632,
+			"",
+			95000,
+			115000,
+			95000,
+			true,
+		},
+		{
+			TemperatureType::GPU,
+			{ "gpu0-usr" },
+			"GPU",
+			95000,
+			115000,
+			95000,
+			true,
+		},
+		{
+			TemperatureType::SKIN,
+			{ "quiet-therm-adc" },
+			"skin",
+			40000,
+			95000,
+			40000,
+			true,
+		},
+	};
+
 	std::vector<std::string> cpu_sensors_monaco =
 	{
 		"cpuss-0-usr",
@@ -996,6 +1039,8 @@ namespace implementation {
 		{364, sensor_cfg_439},
 		{416, sensor_cfg_439},
 		{437, sensor_cfg_439},
+		{349, sensor_cfg_632},
+		{350, sensor_cfg_632},
 		{321, sensor_cfg_sdm845},
 		{341, sensor_cfg_sdm845},
 		{417, sensor_cfg_bengal}, // bengal
