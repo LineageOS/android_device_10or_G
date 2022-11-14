@@ -612,11 +612,6 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|07b1b78015ee6d8d12ae38a5c7a32
 vendor/bin/energy-awareness|def07e366347c7f0a7778b748acb49557ab21d2a
 vendor/bin/msm_irqbalance|b5e55b4b0934b65b7dd5d2201f9a70f6f77a4e7c
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/etc/perf/commonresourceconfigs.xml|d9fc3b49481536d6c7a25eb13f9f1d52d3ee8ff1
-vendor/etc/perf/perfboostsconfig.xml|429d7e2032a494eff1f8d0c039fa839082145b59
-vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
-vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
-vendor/etc/perf/targetresourceconfigs.xml|d9f9815764725df55e748bf4af4829e609dac853
 vendor/etc/msm_irqbalance.conf|3e45e1da03ab49ce9d3f855011aca00f1e417a53
 vendor/lib/libperfconfig.so|11f6ec2d7da51872dad2f016a6638df209adca14
 vendor/lib/libperfgluelayer.so|5c9db256d92ddf5bce65941f2cad5eaeb4f028fd
