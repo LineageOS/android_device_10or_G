@@ -51,6 +51,7 @@ vendor.voice.voip.conc.disabled=true
 
 # Bluetooth
 bluetooth.hfp.client=1
+bluetooth.sco.disable_enhanced_connection=1
 persist.vendor.btstack.enable.splita2dp=false
 qcom.bluetooth.soc=smd
 ro.bluetooth.hfp.ver=1.7
