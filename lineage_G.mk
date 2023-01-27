@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -19,14 +19,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_BRAND := 10or
+PRODUCT_BRAND := 10.or
 PRODUCT_DEVICE := G
-PRODUCT_MANUFACTURER := 10or
+PRODUCT_MANUFACTURER := 10.or
 PRODUCT_NAME := lineage_G
-PRODUCT_MODEL := 10or G
+PRODUCT_MODEL := 10.or G
 
 PRODUCT_GMS_CLIENTID_BASE := android-huaqin
-TARGET_VENDOR := 10or
+TARGET_VENDOR := 10.or
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="G-user 8.1.0 OPM1.171019.019 10or_G_V1_0_82 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
