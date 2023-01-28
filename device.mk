@@ -68,8 +68,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.primary.msm8953:32 \
     audio.r_submix.default \
-    audio.usb.default \
-    sound_trigger.primary.msm8953:32
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     libaacwrapper \
@@ -116,9 +115,6 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     libstdc++.vendor
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -136,9 +132,7 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953
 
 PRODUCT_PACKAGES += \
-    liboverlay \
     libqdMetaData.system \
-    libgenlock \
     libtinyxml \
     vendor.display.config@1.0.vendor
 
@@ -252,7 +246,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
@@ -306,13 +299,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.qcom.sh \
-    init.qcom.bt.sh \
     init.qcom.post_boot.sh
 
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libcnefeatureconfig \
     libxml2
 
 # Sensors
@@ -361,11 +352,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     libcld80211 \
-    libQWiFiSoftApCfg \
     libwifi-hal-ctrl \
     libwpa_client \
     hostapd \
-    dhcpcd.conf \
     wificond \
     WifiOverlay \
     wpa_supplicant \
