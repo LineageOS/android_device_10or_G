@@ -529,14 +529,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so|7f69b6098f779f6ed396bbf366b496b0b228c743
 vendor/lib64/vendor.qti.gnss@3.0-service.so|6b3c387f31f4cb91c8907362af4daa3f0cad7911
 vendor/lib64/vendor.qti.gnss@3.0.so|c5ed668d324e7c898ca026fc12dad8829cd8a944
 
-# GPS (Configs) - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
-vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
-vendor/etc/gps.conf|590941e5a918790d84fb37948ea4eae7ec80a811
-vendor/etc/izat.conf|2a7c10fd6a2504165665024e0dd7e58ba78f6679
-vendor/etc/lowi.conf|1e47a73803542661b9a4c42cc8dfa576ae03a9a2
-vendor/etc/sap.conf|afbcbacb367b2fcc05efcad76ef096d794e768ba
-vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
-
 # Graphics - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|ef519ee12656b4d9fcf3de343d161dd2761bf1f3
 vendor/lib/egl/libEGL_adreno.so|7b1ae9e2c4f44c4449db61b31e1860a8a584bbaf
