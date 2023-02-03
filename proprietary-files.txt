@@ -263,8 +263,8 @@ vendor/etc/camera/ov13855_ohs0544_chromatix.xml
 vendor/etc/camera/ov16885_sunny_chromatix.xml
 vendor/etc/camera/s5k3p8_chromatix.xml
 
-# Camera (Firmware)
-vendor/firmware/cpp_firmware_v1_5_0.fw
+# Camera (Firmware) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
+vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 
 # Camera (OIS)
 vendor/lib/libois_lc898122.so
@@ -463,7 +463,7 @@ vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
 vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050
 vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
-# DRM (Widevine) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_150 release-keys
+# DRM (Widevine) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|92e4797cb000e86ba74fba9da2c014d7ec8fa1a6
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
@@ -554,8 +554,8 @@ vendor/lib64/libllvm-glnext.so|cc14fa4f73fba802c3e3c098b485eaf66d842b45
 vendor/lib64/libmm-hdcpmgr.so|14ba633fbef35ad3c684a440abb15d9e2c300537
 vendor/lib64/libpvr.so|b9d38b4d340e66a1d89861ce552f0405ce9bfa11
 
-# Graphics (Firmware) - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
-vendor/firmware/a530_pfp.fw|c19e1905c15622d7bb02409e6748959bceda9b08
+# Graphics (Firmware) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
+vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
 # Graphics (Postprocessing) - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_240 release-keys
