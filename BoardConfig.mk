@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2021 The LineageOS Project
+# Copyright (C) 2017-2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -140,7 +140,7 @@ TARGET_USES_INTERACTION_BOOST := true
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msm8953
-OVERRIDE_QCOM_HARDWARE_VARIANT := msm8996-R
+TARGET_ENFORCES_QSSI := true
 TARGET_USES_UM_4_9 := true
 
 # Properties
