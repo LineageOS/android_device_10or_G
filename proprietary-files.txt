@@ -821,11 +821,11 @@ vendor/lib64/libsensor_reg.so|54baa94535e7dd96804019810e90cfbec5519bf5
 vendor/lib64/libsensor_user_cal.so|aea178debd6562e4f9e352aede494429c68ffcec
 vendor/lib64/sensors.ssc.so|9affbc5130223a63c7c8ee33a1b7408d739e1466
 
-# Thermal - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
-vendor/bin/thermal-engine|4ab3c410fbcf9f8cae711ea4ba16cd2797712de6
--vendor/lib64/libthermalclient.so|12b26d4242b1a8913ddcb511f42a1debb83689af
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
+# Thermal - from FP3-user 11 8901.4.A.0019.1-gms-edfd6a4e release-keys
+vendor/bin/thermal-engine|7e4bd3bfdf72b669f17cd9befa7f286ebf871c38
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/lib/libthermalclient.so|b9c1bfd3aa5ee2d092941141bf9f6e456ee2fb43
+vendor/lib64/libthermalclient.so|f95bc07fbb05944489c2890397c4a603a7cbe021
 
 # Time services - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 -vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
