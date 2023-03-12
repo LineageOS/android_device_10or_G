@@ -759,11 +759,8 @@ vendor/radio/qcril_database/qcril.db|f51df17ac3bf25a225e3ba15c830b1d0d2bf4e85
 
 # Radio (IMS) - from FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 system_ext/lib64/lib-imscamera.so|49ead972646b09d700556d63676673b3e8af2036
-system_ext/lib64/lib-imsvideocodec.so|3e364441c9dce63d74fbc78c4781a84080513d8a
 system_ext/lib64/lib-imsvt.so|4f96cc5f27551d0b6cb11ad6447d9ce8829dde47
 system_ext/lib64/lib-imsvtextutils.so|1acf1de305e455a3a924483e5652b37133d10fd1
-system_ext/lib64/lib-imsvtutils.so|dfc5cf0854fe38c191a53ec3bd2a322d05d85567
-system_ext/lib64/libimscamera_jni.so|cf0992c9defd6f50b7ce9db2ffbd62150d1f69cf
 system_ext/lib64/libimsmedia_jni.so|555e12815cfaab9c2b1ce2afad928c0a624a184c
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|4cf9e97f526c6278c5e2136e00d1fb800fb941aa
 -system_ext/priv-app/ims/ims.apk|298c0db66e70060cca2a380d19e5fe07f059ad23
@@ -808,6 +805,11 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|aa98e9afc4cac9fa5be51bbba359a74973f
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|62cd64dbb25d082cfdc742fb03931ba0f9abe434
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|fa120eaa7807ff43f3974a8e0146a8c00c78f623
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
+
+# Radio (IMS) - from missi_phonenonab_eea-user 13 TKQ1.221013.002 V14.0.2.0.TKFEUXM release-keys
+system_ext/lib64/lib-imsvideocodec.so|3fa5444a061dd5af35f924744dc6a73d535cedf6
+system_ext/lib64/lib-imsvtutils.so|6df6279955493da11860bb048db38f01ec05c2aa
+system_ext/lib64/libimscamera_jni.so|f6b7647cfe080baeed006c932b495ff94b5685a7
 
 # Sensors - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/bin/sensors.qti|fa96c853b27dad6e7547ddc119a0718194626c9e
